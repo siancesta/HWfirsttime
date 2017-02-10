@@ -35,8 +35,8 @@ export class BoxContent extends Component {
               <div className="clearfix"></div>
               <div className="columns">
                 {
-                    SelectBox.map(function(i) {
-                        return <Boxy index={i} key={i} />;
+                    Entry.map(function(i) {
+                        return <SubBox index={i} key={i} />;
                     })
                  }
               </div>
