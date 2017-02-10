@@ -19,8 +19,6 @@ export class BoxContent extends Component {
 		return(
 			<div className="first">
               <div className="second">
-              	<h3>Hi I'm Weed Master</h3>
-              	<hr />
 				<p className="control">
 		            <span>Please Select</span>
 		            <span className="select">
